@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3569,11 +3569,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <sheets>
 <sheet>
 <plain>
-<text x="20.32" y="137.16" size="1.778" layer="97">Max Voltage Input: 16VDC</text>
-<text x="20.32" y="134.62" size="1.778" layer="97">Max Current Output: 150mA</text>
-<text x="15.24" y="127" size="1.778" layer="97">Board is marked with combination of</text>
-<text x="15.24" y="124.46" size="1.778" layer="97">resonator frequency and regulator voltage.</text>
-<text x="20.32" y="139.7" size="1.778" layer="97">VCC = 5V or 3.3V Output</text>
 <wire x1="67.818" y1="167.64" x2="68.072" y2="169.164" width="0.2032" layer="97"/>
 </plain>
 <instances>
