@@ -1465,22 +1465,16 @@ design rules under a new name.</description>
 <via x="17.411853125" y="20.467453125" extent="1-16" drill="0.381"/>
 <wire x1="17.411853125" y1="20.467453125" x2="16.6111125" y2="19.6667125" width="0.254" layer="1"/>
 <wire x1="16.6111125" y1="19.6667125" x2="16.6111125" y2="19.4495375" width="0.254" layer="1"/>
-<<<<<<< Updated upstream
 <wire x1="11.67871875" y1="21.1747" x2="9.907275" y2="21.1747" width="0.254" layer="16"/>
-=======
 <wire x1="11.67871875" y1="21.1747" x2="9.637275" y2="21.1747" width="0.254" layer="16"/>
->>>>>>> Stashed changes
 <wire x1="6.033025" y1="17.775" x2="5.25" y2="17.775" width="0.254" layer="16"/>
 <wire x1="12.385965625" y1="20.467453125" x2="11.67871875" y2="21.1747" width="0.254" layer="16"/>
 <wire x1="17.411853125" y1="20.467453125" x2="12.385965625" y2="20.467453125" width="0.254" layer="16"/>
 <wire x1="7.5448" y1="19.286775" x2="6.033025" y2="17.775" width="0.254" layer="16"/>
-<<<<<<< Updated upstream
 <wire x1="9.907275" y1="21.1747" x2="9.701775" y2="21.3802" width="0.254" layer="16"/>
 <wire x1="9.701775" y1="21.3802" x2="7.738225" y2="21.3802" width="0.254" layer="16"/>
-=======
 <wire x1="9.637275" y1="21.1747" x2="9.431775" y2="21.3802" width="0.254" layer="16"/>
 <wire x1="9.431775" y1="21.3802" x2="7.738225" y2="21.3802" width="0.254" layer="16"/>
->>>>>>> Stashed changes
 <wire x1="7.738225" y1="21.3802" x2="7.5448" y2="21.186775" width="0.254" layer="16"/>
 <wire x1="7.5448" y1="21.186775" x2="7.5448" y2="19.286775" width="0.254" layer="16"/>
 </signal>
@@ -1707,15 +1701,12 @@ design rules under a new name.</description>
 <signal name="RXI">
 <contactref element="U1" pad="30"/>
 <contactref element="J1" pad="2"/>
-<<<<<<< Updated upstream
 <wire x1="7.54884375" y1="21.8374" x2="9.92115625" y2="21.8374" width="0.254" layer="16"/>
 <wire x1="10.12665625" y1="21.6319" x2="11.8681" y2="21.6319" width="0.254" layer="16"/>
 <wire x1="9.92115625" y1="21.8374" x2="10.12665625" y2="21.6319" width="0.254" layer="16"/>
-=======
 <wire x1="7.54884375" y1="21.8374" x2="9.71115625" y2="21.8374" width="0.254" layer="16"/>
 <wire x1="9.91665625" y1="21.6319" x2="11.8681" y2="21.6319" width="0.254" layer="16"/>
 <wire x1="9.71115625" y1="21.8374" x2="9.91665625" y2="21.6319" width="0.254" layer="16"/>
->>>>>>> Stashed changes
 <wire x1="12.517015625" y1="20.982984375" x2="11.8681" y2="21.6319" width="0.254" layer="16"/>
 <via x="18.4719125" y="20.2" extent="1-16" drill="0.381"/>
 <wire x1="18.4719125" y1="20.535746875" x2="18.4719125" y2="20.2" width="0.254" layer="16"/>
@@ -1962,7 +1953,6 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<<<<<<< Updated upstream
 <approved hash="5,1,987657b0695fa1b1"/>
 <approved hash="23,1,b7b1d9a3d977b765"/>
 <approved hash="23,1,dcbde343e22addd4"/>
@@ -1974,7 +1964,6 @@ design rules under a new name.</description>
 <approved hash="19,1,be15a3b6dd1a9fda"/>
 <approved hash="19,16,76930eff490b7d0c"/>
 <approved hash="19,16,a1ffdfccc4a5745d"/>
-=======
 <approved hash="19,1,63bdf55a2480fea0"/>
 <approved hash="19,1,a80806e0da097f25"/>
 <approved hash="19,1,e448f7791311703a"/>
@@ -1988,7 +1977,6 @@ design rules under a new name.</description>
 <approved hash="5,1,be84a680a466d630"/>
 <approved hash="21,19,57339733953195f1"/>
 <approved hash="21,19,2e2b202f20d3d0d3"/>
->>>>>>> Stashed changes
 </errors>
 </board>
 </drawing>
