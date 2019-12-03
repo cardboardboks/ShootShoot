@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3544,8 +3544,8 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <part name="U1" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMEGA328"/>
 <part name="P+1" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="GND5" library="SparkFun" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
-<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="2.2k"/>
+<part name="R3" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="2.2k"/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
@@ -3569,11 +3569,6 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <sheets>
 <sheet>
 <plain>
-<text x="20.32" y="137.16" size="1.778" layer="97">Max Voltage Input: 16VDC</text>
-<text x="20.32" y="134.62" size="1.778" layer="97">Max Current Output: 150mA</text>
-<text x="15.24" y="127" size="1.778" layer="97">Board is marked with combination of</text>
-<text x="15.24" y="124.46" size="1.778" layer="97">resonator frequency and regulator voltage.</text>
-<text x="20.32" y="139.7" size="1.778" layer="97">VCC = 5V or 3.3V Output</text>
 <wire x1="67.818" y1="167.64" x2="68.072" y2="169.164" width="0.2032" layer="97"/>
 </plain>
 <instances>
@@ -4299,6 +4294,26 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,121.92,170.18,3.3V,VCC,,,,"/>
+<approved hash="102,1,134.62,109.22,3.3V,VCC,,,,"/>
+<approved hash="102,1,144.78,157.48,3.3V,VCC,,,,"/>
+<approved hash="102,1,223.52,160.02,3.3V,VCC,,,,"/>
+<approved hash="102,1,231.14,160.02,3.3V,VCC,,,,"/>
+<approved hash="102,1,86.36,165.1,3.3V,VCC,,,,"/>
+<approved hash="202,1,53.34,152.4,U2,BP,,,,"/>
+<approved hash="106,1,195.58,154.94,A0,,,,,"/>
+<approved hash="106,1,195.58,152.4,A1,,,,,"/>
+<approved hash="106,1,195.58,139.7,A6,,,,,"/>
+<approved hash="106,1,195.58,137.16,A7,,,,,"/>
+<approved hash="106,1,195.58,121.92,D4,,,,,"/>
+<approved hash="106,1,195.58,109.22,D8,,,,,"/>
+<approved hash="106,1,195.58,106.68,D9,,,,,"/>
+<approved hash="106,1,195.58,104.14,D10,,,,,"/>
+<approved hash="106,1,195.58,99.06,MISO,,,,,"/>
+<approved hash="106,1,195.58,101.6,MOSI,,,,,"/>
+<approved hash="106,1,195.58,96.52,SCK,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

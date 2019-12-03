@@ -3565,6 +3565,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <part name="R6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="4.7k"/>
 <part name="R7" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="4.7k"/>
 <part name="R8" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="4.7k"/>
+<part name="R9" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="10ohm"/>
+<part name="R10" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="10ohm"/>
+<part name="R12" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="10ohm"/>
+<part name="R13" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R0402" package3d_urn="urn:adsk.eagle:package:13296/1" value="10ohm"/>
 </parts>
 <sheets>
 <sheet>
@@ -3710,25 +3714,41 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <attribute name="NAME" x="245.11" y="62.23" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="245.11" y="59.69" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="Q3" gate="G$1" x="231.14" y="40.64" smashed="yes">
-<attribute name="NAME" x="245.11" y="41.91" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="245.11" y="39.37" size="1.778" layer="96" align="center-left"/>
+<instance part="Q3" gate="G$1" x="231.14" y="27.94" smashed="yes">
+<attribute name="NAME" x="245.11" y="29.21" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="245.11" y="26.67" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="Q4" gate="G$1" x="231.14" y="20.32" smashed="yes">
-<attribute name="NAME" x="245.11" y="21.59" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="245.11" y="19.05" size="1.778" layer="96" align="center-left"/>
+<instance part="Q4" gate="G$1" x="231.14" y="-2.54" smashed="yes">
+<attribute name="NAME" x="245.11" y="-1.27" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="245.11" y="-3.81" size="1.778" layer="96" align="center-left"/>
 </instance>
 <instance part="R6" gate="G$1" x="223.52" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="227.33" y="59.4614" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="227.33" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R7" gate="G$1" x="223.52" y="40.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="227.33" y="39.1414" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="227.33" y="43.942" size="1.778" layer="96" rot="R180"/>
+<instance part="R7" gate="G$1" x="223.52" y="27.94" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.33" y="26.4414" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="31.242" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R8" gate="G$1" x="223.52" y="20.32" smashed="yes" rot="R180">
-<attribute name="NAME" x="227.33" y="18.8214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="227.33" y="23.622" size="1.778" layer="96" rot="R180"/>
+<instance part="R8" gate="G$1" x="223.52" y="-2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="227.33" y="-4.0386" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="227.33" y="0.762" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R9" gate="G$1" x="241.3" y="10.16" smashed="yes" rot="R270">
+<attribute name="NAME" x="242.7986" y="13.97" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="237.998" y="13.97" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R10" gate="G$1" x="241.3" y="40.64" smashed="yes" rot="R270">
+<attribute name="NAME" x="242.7986" y="44.45" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="237.998" y="44.45" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R12" gate="G$1" x="241.3" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="242.7986" y="77.47" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="237.998" y="77.47" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R13" gate="G$1" x="134.62" y="144.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="136.1186" y="148.59" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="131.318" y="148.59" size="1.778" layer="96" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -3863,22 +3883,25 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="E"/>
-<wire x1="241.3" y1="33.02" x2="248.92" y2="33.02" width="0.1524" layer="91"/>
-<label x="248.92" y="33.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="241.3" y1="20.32" x2="248.92" y2="20.32" width="0.1524" layer="91"/>
+<label x="248.92" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q4" gate="G$1" pin="E"/>
-<wire x1="241.3" y1="12.7" x2="248.92" y2="12.7" width="0.1524" layer="91"/>
-<label x="248.92" y="12.7" size="1.27" layer="95" xref="yes"/>
+<wire x1="241.3" y1="-10.16" x2="248.92" y2="-10.16" width="0.1524" layer="91"/>
+<label x="248.92" y="-10.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AREF" class="0">
 <segment>
-<wire x1="147.32" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="139.7" x2="129.54" y2="137.16" width="0.1524" layer="91"/>
 <label x="137.16" y="139.7" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="AREF"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<junction x="134.62" y="139.7"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -3939,7 +3962,8 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 </segment>
 <segment>
 <wire x1="147.32" y1="149.86" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="149.86" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="149.86" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="152.4" x2="144.78" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="147.32" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="144.78" x2="144.78" y2="144.78" width="0.1524" layer="91"/>
@@ -3950,6 +3974,10 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <pinref part="U1" gate="G$1" pin="VCC@1"/>
 <pinref part="U1" gate="G$1" pin="VCC@2"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="149.86" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<junction x="144.78" y="152.4"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="160.02" width="0.1524" layer="91"/>
@@ -4106,8 +4134,8 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
-<label x="215.9" y="40.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="218.44" y1="27.94" x2="215.9" y2="27.94" width="0.1524" layer="91"/>
+<label x="215.9" y="27.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -4118,8 +4146,8 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="20.32" x2="215.9" y2="20.32" width="0.1524" layer="91"/>
-<label x="215.9" y="20.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="218.44" y1="-2.54" x2="215.9" y2="-2.54" width="0.1524" layer="91"/>
+<label x="215.9" y="-2.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D10" class="0">
@@ -4183,9 +4211,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <label x="162.56" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q4" gate="G$1" pin="C"/>
-<wire x1="241.3" y1="27.94" x2="241.3" y2="30.48" width="0.1524" layer="91"/>
-<label x="241.3" y="30.48" size="1.27" layer="95" xref="yes"/>
+<label x="241.3" y="17.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="241.3" y1="15.24" x2="241.3" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="G" class="0">
@@ -4195,9 +4223,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <label x="162.56" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q3" gate="G$1" pin="C"/>
-<wire x1="241.3" y1="48.26" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
-<label x="241.3" y="50.8" size="1.27" layer="95" xref="yes"/>
+<label x="241.3" y="48.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="241.3" y1="45.72" x2="241.3" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="R" class="0">
@@ -4207,9 +4235,9 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <label x="162.56" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="C"/>
-<wire x1="241.3" y1="68.58" x2="241.3" y2="71.12" width="0.1524" layer="91"/>
-<label x="241.3" y="71.12" size="1.27" layer="95" xref="yes"/>
+<label x="241.3" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="78.74" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RAWIN" class="1">
@@ -4274,14 +4302,14 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="Q4" gate="G$1" pin="B"/>
-<wire x1="228.6" y1="20.32" x2="231.14" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-2.54" x2="231.14" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="B"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="231.14" y1="40.64" x2="228.6" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="27.94" x2="228.6" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -4289,6 +4317,24 @@ Source: &lt;a href="http://uk.rs-online.com/web/p/products/8009686"&gt; Datashee
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="B"/>
 <wire x1="228.6" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="Q4" gate="G$1" pin="C"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="Q3" gate="G$1" pin="C"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="Q2" gate="G$1" pin="C"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
